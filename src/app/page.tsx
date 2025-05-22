@@ -78,9 +78,9 @@ export default function Home() {
         </form>
         
         {roastResult && (
-          <div className="mt-8 p-6 bg-gray-100 rounded-lg">
-            <h2 className="text-2xl font-bold mb-4">The Roast</h2>
-            <div className="whitespace-pre-wrap">{roastResult}</div>
+          <div className="mt-8 p-6 bg-gray-100 rounded-lg border border-gray-300 shadow-md">
+            <h2 className="text-2xl font-bold mb-4 text-red-600">The Roast 🔥</h2>
+            <div className="whitespace-pre-wrap text-gray-800 font-medium">{roastResult}</div>
           </div>
         )}
       </div>
